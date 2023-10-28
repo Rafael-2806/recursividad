@@ -1,0 +1,13 @@
+ #5=  5+4+3+2+1
+
+def acumulada(numero):
+    if numero==1:
+        return 1
+    else:
+        return numero + acumulada(numero-1)
+     
+print(acumulada(5))
+
+
+     
+     
